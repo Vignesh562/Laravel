@@ -230,6 +230,13 @@
                 </div>
             </div>
 
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-key"></i>
+                    Update Password
+                </button>
+            </div>
+
             
         </form>
     </div>
