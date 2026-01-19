@@ -362,7 +362,20 @@
     }
 </style>
 
-
+<!-- Page Header -->
+<div class="page-header fade-in">
+    <div class="container">
+        <h1>
+            <i class="fas fa-shopping-bag"></i>
+            @if(isset($category))
+                {{ $category->name }} Products
+            @else
+                All Products
+            @endif
+        </h1>
+        <p>Discover amazing products from local sellers</p>
+    </div>
+</div>
 
 <div class="container">
     <div class="products-container">
